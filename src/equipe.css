@@ -1,0 +1,69 @@
+/*-------------- Equipe ----------------*/
+
+/* font component equipe */
+.component-equipe h1 {
+    font-family: 'Old Standard TT', serif;
+    font-weight: 500;
+    font-size: 1.30em;
+    color: black;
+    text-align: center;
+  
+  }
+  
+  .component-equipe p {
+    color: black;
+    font-family: 'EB Garamond', serif;;
+    font-size: 1.05em;
+  }
+  
+  
+  #col-team-kimia {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: justify;
+  
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  
+  }
+  
+  #col-team-kimia img {
+    height: 38vh;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #col-team-kimia-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  #col-team-kimia-2 img {
+    height: 38vh;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  #col-team-kimia-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+  
+  #col-team-kimia-3 img {
+    height: 38vh;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .margin-top {
+    margin-top: 0;
+  }

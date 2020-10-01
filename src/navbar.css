@@ -1,0 +1,83 @@
+
+
+/* .Navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+} */
+
+.Navbar {
+  background-color: white;
+  z-index: 3;
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: -72px;
+  transition: top 0.6s
+}
+
+.Navbar--hidden{
+  top: 0px;
+  /******nav mobile*****/
+}
+
+.burgerMenu {
+  display: none;
+}
+
+.logomobile {
+  display: none;
+}
+  
+.main-header {
+  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+  
+  .header-nav {
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    }
+
+
+  .navbar-brand{
+    z-index: 3;
+  width: 10%;
+  margin-top: 0.1rem;
+  }
+
+  .navbar-brand h3{ 
+    margin: 0;
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.20em;
+    color: black;
+  }
+  
+  ul{
+    z-index: 3;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  width: 90%;
+  }
+  
+  li{
+    z-index: 3;
+  font-family: 'EB Garamond', serif;
+  font-size: 1.10em;
+  padding: 0.5rem;
+  }
+  
+  a{
+  text-decoration: none;
+  color: black;
+  }

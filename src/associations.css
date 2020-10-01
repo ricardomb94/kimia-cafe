@@ -1,0 +1,33 @@
+
+/*-------------- Associations ----------------*/
+
+/* font component associations */
+
+.component-associations h1 {
+    font-family: 'Old Standard TT', serif;
+    font-weight: 500;
+    font-size: 1.30em;
+    color: black;
+    text-align: center;
+  }
+  
+  .component-associations h2 {
+    color: black;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 500;
+    font-size: 1.30em;
+    text-align: center;
+  }
+  
+  .component-associations p {
+    color: black;
+    font-family: 'EB Garamond', serif;;
+    font-size: 1.05em;
+  }
+  #margin-h2 {
+    margin-bottom: 0;
+  }
+  
+  #no-mg-top {
+    margin-top: 0;
+  }

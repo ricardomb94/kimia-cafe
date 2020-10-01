@@ -1,0 +1,144 @@
+
+
+/******************** Epicerie ***************************/
+
+.componenent-epicerie {
+    height: fit-content;
+  }
+  
+  /* font component epicerie */
+  .component-epicerie h1 {
+    font-family: 'Old Standard TT', serif;
+    font-weight: 500;
+    font-size: 1.30em;
+    color: black;
+    text-align: center;
+    
+  
+  }
+  
+  .component-epicerie h2 {
+    color: black;
+    font-family: 'Old Standard TT', serif;
+    font-weight: 500;
+    font-size: 1.30em;
+    text-align: center;
+    
+  
+  }
+  
+  .component-epicerie p {
+    color: black;
+    font-family: 'EB Garamond', serif;;
+    font-size: 1.05em;
+  }
+  
+  .item{
+  /* background: pink; */
+      /* background: pink; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 74px;
+  height: 100%;
+  text-align: center;
+  margin: 0.1rem;
+  }
+  
+  .item img {
+    display: flex;
+    height: 80%;
+    object-fit: inherit;
+  }
+  
+  .glocery {
+    background: beige;
+    height: 36%;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    font-size: 0.9em;
+    color: black;
+  }
+  
+  #dims-bloc-titre {
+    height: 5%;
+  }
+  
+  #dims-bloc-titre h1 {
+    margin-bottom: 0;
+  }
+  
+  
+  #dims-bloc-texte {
+    height: 25%;
+  }
+  
+  #dims-bloc-texte h2 p {
+    margin: 0;
+  }
+  
+  .margin-null {
+    margin: 0;
+  }
+  
+  #dims-wrapper {
+    height: 60%;
+  }
+  
+  .wrapper{
+  display: flex;
+  justify-content: space-between;
+  height: fit-content;
+  width: 100%;
+  margin: 0;
+  }
+  
+  h5{
+  margin-bottom: auto;
+  border: 1px white solid;
+  padding: 0.4rem;
+  border-bottom-width: thick;
+  border-radius: 12%;
+  background: gray
+  }
+  
+  .cart-content{
+  display: flex;
+  flex-wrap: wrap;
+  height: 50%;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  
+  }
+  
+  figcaption {
+  height: 23px;
+  display: flex;
+  align-items: center;
+  color: white;
+  position: absolute;
+  /* font-size: 0.9em; */
+  background: gray;
+  border-radius: 12%;
+  padding: 0;
+  }
+  
+  .col-img-ep {
+    height: 100%;
+    width: 40%;
+  }
+  
+  .col-text-ep {
+    height: 80%;
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #dims-col-ep {
+    height: 100%;
+  }

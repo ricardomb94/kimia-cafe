@@ -1,0 +1,114 @@
+/*-------------- Contact ----------------*/
+
+.component-contact h2 {
+    color: black;
+   font-family: 'Old Standard TT', serif;
+   font-weight: 500;
+   font-size: 1.30em;
+   text-align: center;
+   
+ 
+ }
+ 
+ .cols-kimia-contact {
+   height: 85%;
+ }
+ 
+ .contact-form-kimia {
+   font-family: 'EB Garamond', serif;
+   font-size: 1.05em;
+   display: flex;
+   height: 100%;
+   width: 100%;
+ }
+ 
+ .contact-form-kimia form {
+   display: flex;
+   flex-direction: column;
+   /* align-items: center; */
+   width: 80%;
+ }
+ 
+ .submit-contact {
+ 
+   height: 28%;
+   display: flex;
+   justify-content: flex-end;
+   align-items: flex-end;
+ }
+ 
+ .submit-border {
+   border: 1px solid #C4C4C4;
+   height: 30%;
+   width: 35%;
+ 
+ }
+ .submit-button {
+   background-color: white;
+   border: none;
+   height: 100%;
+   width: 100%;
+ }
+ 
+ 
+ .contact-adresse {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+ }
+ 
+ .contact-adresse p {
+   font-family: 'EB Garamond', serif;
+   font-size: 1.05em;
+   text-align: center;
+   margin: 0;
+   width: 80%;
+  
+ }
+ 
+ .adresse-2 {
+   margin-bottom: 5%;
+ }
+ 
+ .adresse-map{
+   height: 60%;
+   width: 80%;
+ }
+ 
+ .adresse-map img {
+   width: 100%;
+   height: 100%;
+ }
+ .contact-horaire{ 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .contact-horaire p {
+   font-family: 'EB Garamond', serif;
+   font-size: 1.05em;
+   margin: 0;
+ }
+ 
+ .horaire-content-1 , .horaire-content-2 {
+   font-family: 'EB Garamond', serif;
+   font-weight: bold;
+   font-size: 1.05em;
+   margin: 5px;
+ }
+ 
+ 
+ .contact-recrutement{ 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .recrutement-content {
+   margin: 0;
+   text-align: center;
+   width: 55%;
+ }
